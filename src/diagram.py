@@ -6,7 +6,7 @@ from diagrams.aws.general import User
 from diagrams.aws.iot import IotCar
 
 node_attr = {
-    "fontsize": "8"
+    "fontsize": "10"
 }
 
 graph_attr = {
@@ -36,13 +36,13 @@ with Diagram(
                 S3(app.label+"-Output") for app in software
             ]
 
-        dp_entry >> Lambda("Input Normalization Handler") >> software
+        dp_entry >> Lambda("Input Normalization\n Handler") >> software
         for i in range(len(software)):
             software[i] >> dp_exit[i]
 
 
     with Cluster("Output Normalization Flow"):
-        mi_entry = Lambda("Output Normalization Handler")
+        mi_entry = Lambda("Output Normalization\n Handler")
         mi_exit = S3("Normalized Output")
         mi_entry >> mi_exit
 
