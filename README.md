@@ -1,7 +1,7 @@
 # ML Pipeline Diagram
 
 ## Demo
-![](./src/output.svg)
+![](./src/output.png)
 
 ## Setup
 > open project in Pycharm and install packages, you can run with Pycharm Configurations
