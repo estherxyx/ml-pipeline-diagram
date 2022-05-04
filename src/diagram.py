@@ -15,7 +15,7 @@ graph_attr = {
 
 with Diagram(
         name="Application Cross Validation Workflow",
-        outformat="svg",
+        outformat="png",
         filename="output",
         show=False,
         node_attr=node_attr,
