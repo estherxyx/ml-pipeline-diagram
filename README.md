@@ -14,6 +14,3 @@ brew install graphviz
 # https://diagrams.mingrammer.com/docs/getting-started/examples
 pip3 install diagrams
 ```
-
-## Reference
-- https://diagrams.mingrammer.com/docs/getting-started/installation
