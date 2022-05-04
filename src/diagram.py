@@ -14,7 +14,7 @@ graph_attr = {
 }
 
 with Diagram(
-        name="Application Cross Validation Workflow",
+        name="ML Pipeline Diagram: Application Cross Validation Workflow",
         outformat="png",
         filename="output",
         show=False,
